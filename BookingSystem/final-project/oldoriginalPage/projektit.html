@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fi-FI">
+<head>
+    <title>Markus Paananen</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="mystyle.css" media="screen" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+ 
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Koti</a>
+        <a href="projektit.html"class="active">Projektit</a>
+        <a href="yhteystiedot.html">Yhteystiedot</a>
+        <a href="yleinen.html">Yleinen</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <h1>Markus Paananen</h1>
+    </div>
+
+ <div class="sisalto">
+   
+    <div class="welcome">
+        <h1>Welcome.</h1>
+        <p>Projektit</p>
+        
+    </div>
+
+</div>  
+
+ <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+
+</body>
+</html>
